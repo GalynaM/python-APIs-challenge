@@ -5,3 +5,4 @@ Calls to OpenWeather APIs are added to retrieve weather selected cities
 Data Structures were changed to retrieve information about cities in one data structure
 Data Frame for weather data by each city was added
 Export to csv and check for Humidity added
+Data frame cleaning added to remove rows with Humidity > 100 
