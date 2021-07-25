@@ -9,3 +9,5 @@ Data frame cleaning added to remove rows with Humidity > 100
 Scatter Plots added to show correlation between latitude and other weather parameters
 Linear Regressions Models added to analyze correlation
 Functions to calculate regression and to build plots were added, images exported
+Fixes to correctly obtain latitude and longitude were added to WeatherPy
+Heatmap and ideal weather data frame were created in VacationPy
