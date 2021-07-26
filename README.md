@@ -16,3 +16,6 @@ API calls To Google places added to find Hotels in ideal weather conditions
 Fixes added to WeatherPy
 VacationPy is finilized to show a Humidity HeatMap for all cities and HeatMap with a Marker Layer for found Hotels in the ideal weather conditions
 Images for Heat Maps are added
+
+Analysis added to WeatherPy
+Final solutions submitted
