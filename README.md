@@ -11,3 +11,4 @@ Linear Regressions Models added to analyze correlation
 Functions to calculate regression and to build plots were added, images exported
 Fixes to correctly obtain latitude and longitude were added to WeatherPy
 Heatmap and ideal weather data frame were created in VacationPy
+API calls To Google places added to find Hotels in ideal weather conditions
