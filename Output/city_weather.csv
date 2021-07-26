@@ -1,4 +1,4 @@
-City,Country,Lat,Lang,Max Temp,Humidity,Cloudiness,Wind Speed,Date
+City,Country,Lat,Lng,Max Temp,Humidity,Cloudiness,Wind Speed,Date
 albany,au,42.6001,-73.9662,84.54,75,46,3.06,1627247018
 oranjestad,aw,12.524,-70.027,85.95,70,20,10.36,1627247633
 ballarat,au,-37.5662,143.8496,48.18,94,99,8.99,1627247634

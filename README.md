@@ -12,3 +12,7 @@ Functions to calculate regression and to build plots were added, images exported
 Fixes to correctly obtain latitude and longitude were added to WeatherPy
 Heatmap and ideal weather data frame were created in VacationPy
 API calls To Google places added to find Hotels in ideal weather conditions
+
+Fixes added to WeatherPy
+VacationPy is finilized to show a Humidity HeatMap for all cities and HeatMap with a Marker Layer for found Hotels in the ideal weather conditions
+Images for Heat Maps are added
