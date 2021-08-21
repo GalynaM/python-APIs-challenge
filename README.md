@@ -1,8 +1,8 @@
 # python-APIs-challenge
 
-## This project analyses the weather of 500+ cities across the world of varying distance from the equator.
-## OpenWeather API is used to retrieve weather data
-## Google Places API is used to find locations of Hotels in cities with the best weather.
+### This project analyses the weather of 500+ cities across the world of varying distance from the equator.
+### OpenWeather API is used to retrieve weather data
+### Google Places API is used to find locations of Hotels in cities with the best weather.
 
 Initial files added
 Random selection of over 500 cities is added
