@@ -1,22 +1,9 @@
-# python-APIs-challenge
-Initial files added
-Random selection of over 500 cities is added
-Calls to OpenWeather APIs are added to retrieve weather selected cities
-Data Structures were changed to retrieve information about cities in one data structure
-Data Frame for weather data by each city was added
-Export to csv and check for Humidity added
-Data frame cleaning added to remove rows with Humidity > 100
-Scatter Plots added to show correlation between latitude and other weather parameters
-Linear Regressions Models added to analyze correlation
-Functions to calculate regression and to build plots were added, images exported
-Fixes to correctly obtain latitude and longitude were added to WeatherPy
-Heatmap and ideal weather data frame were created in VacationPy
-API calls To Google places added to find Hotels in ideal weather conditions
+## python-APIs-challenge
 
-Fixes added to WeatherPy
-VacationPy is finilized to show a Humidity HeatMap for all cities and HeatMap with a Marker Layer for found Hotels in the ideal weather conditions
-Images for Heat Maps are added
+## Project description:
+### The project analyses the weather of 500+ cities across the world of varying distance from the equator.
 
+<<<<<<< HEAD
 Analysis added to WeatherPy
 Final solutions submitted
 
@@ -26,3 +13,30 @@ Project Description.
 APIs Used:
 OpenWeather.
 Google places.
+=======
+### Data retrieved from:
+* OpenWeather API to retrieve weather data https://openweathermap.org/api.
+* Google Places API is used to find locations of Hotels in cities with the best weather https://developers.google.com/maps/documentation/places/web-service/overview.
+
+#### WeatherPy.ipynb
+#### The weather of 500+ cities across the world of varying distance from the equator is vizualized.
+* Citypy module is used. https://pypi.org/project/citipy/; https://github.com/wingchen/citipy.
+* 500 unique (non-repeat) cities were randomly selected based on latitude and longitude.
+* A weather check on each of the cities performed using a series of successive API calls.
+* A print log of each city as it's being processed with the city number and city name included.
+* Weather data for retrieved cities cleaned to exclude cities with >100% humidity.
+* The following relationships vizualized and analyzed:
+  Max Temperature (F) vs. Latitude, Humidity (%) vs. Latitude, Cloudiness (%) vs. Latitude, Wind Speed (mph) vs. Latitude.
+* MatPlotLib package used to build Charts. 
+* SciPy package used to calculate linear regression and Pearson correlation.
+* Analysis was done separetely for North and South Hemispheres.
+
+
+#### VacationPy.ipynb
+#### Using weather data plan future vacations.
+* Jupyter-gmaps were used.
+* A heat map that displays the humidity for every city from the part I of the homework created.
+* DataFrame to find an ideal weather condition was narrowed.
+* Google Places API used to find the first hotel for each city located within 5000 meters of ideal coordinates.
+* Marker Layers for Hotels in the ideal weather conditions added.
+>>>>>>> 1f5c236f0edd78abd93e2950017fdf1c76ba2a53
