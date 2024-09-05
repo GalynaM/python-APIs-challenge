@@ -9,11 +9,13 @@
 
 #### WeatherPy.ipynb
 #### The weather of 500+ cities across the world of varying distance from the equator is vizualized.
-* Citypy module is used. https://pypi.org/project/citipy/
+* Citypy module is used. https://pypi.org/project/citipy/; https://github.com/wingchen/citipy.
 * 500 unique (non-repeat) cities were randomly selected based on latitude and longitude.
 * A weather check on each of the cities performed using a series of successive API calls.
 * A print log of each city as it's being processed with the city number and city name included.
-* The following relationships vizualized and analyzed: Temperature (F), Humidity (%), Cloudiness (%), Wind Speed (mph) vs. Latitude. Scatter Plots used to show correlation between latitude and other weather parameters.
+* The following relationships vizualized and analyzed:
+* Temperature (F), Humidity (%), Cloudiness (%), Wind Speed (mph) vs. Latitude.
+* Scatter Plots used to show correlation between latitude and other weather parameters.
 * Linear regression run on each relationship, separating North and South Hemispheres to analyze correlation.
 * 
 
