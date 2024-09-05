@@ -3,17 +3,6 @@
 ## Project description:
 ### The project analyses the weather of 500+ cities across the world of varying distance from the equator.
 
-<<<<<<< HEAD
-Analysis added to WeatherPy
-Final solutions submitted
-
-Project Description.
-
-
-APIs Used:
-OpenWeather.
-Google places.
-=======
 ### Data retrieved from:
 * OpenWeather API to retrieve weather data https://openweathermap.org/api.
 * Google Places API is used to find locations of Hotels in cities with the best weather https://developers.google.com/maps/documentation/places/web-service/overview.
@@ -39,4 +28,3 @@ Google places.
 * DataFrame to find an ideal weather condition was narrowed.
 * Google Places API used to find the first hotel for each city located within 5000 meters of ideal coordinates.
 * Marker Layers for Hotels in the ideal weather conditions added.
->>>>>>> 1f5c236f0edd78abd93e2950017fdf1c76ba2a53
