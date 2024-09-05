@@ -19,3 +19,10 @@ Images for Heat Maps are added
 
 Analysis added to WeatherPy
 Final solutions submitted
+
+Project Description.
+
+
+APIs Used:
+OpenWeather.
+Google places.
