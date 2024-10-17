@@ -23,8 +23,9 @@
 
 #### VacationPy.ipynb
 #### Using weather data plan future vacations.
-* Jupyter-gmaps were used.
-* A heat map that displays the humidity for every city from the part I of the homework created.
+* Weather data for cities from Part I used to plan vacations.
+* Gmaps library used to visualize the map.
+* The Humidity Heatmap created for the cities in data set.
 * DataFrame to find an ideal weather condition was narrowed.
 * Google Places API used to find the first hotel for each city located within 5000 meters of ideal coordinates.
 * Marker Layers for Hotels in the ideal weather conditions added.
