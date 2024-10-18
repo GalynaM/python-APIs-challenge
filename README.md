@@ -24,19 +24,25 @@
 * SciPy package used to calculate linear regression and Pearson correlation.
 * Analysis was done separetely for North and South Hemispheres.
 
-Example of Analysis:
+### Example of Analysis:
 * ![image](https://github.com/user-attachments/assets/9491dde7-a8ee-4df5-a28d-00f4981c2bf6)
 * Latitude vs. Temperature Plot shows that there is a correlation between Latitude and Max Temperature.
 * The closer the latitude to the zero the higher we might expect the Max Temperatures.
 * At the current time of Analysis the Highest Temperature tend to shift towards Northern Hemisphere.
+* ![image](https://github.com/user-attachments/assets/cc1fe4dc-217e-4f1f-93a5-1fe71b1eb6b2)
+* The r-value is -0.72.
+* There is a strong negative correlation between Max Temp and Latitude in Northern Hemisphere.
+* That means that the more to the North the city is the less Max Temp it gets.
 
 
 
 #### VacationPy.ipynb
-#### Using weather data plan future vacations.
+#### Using weather data to plan future vacations.
 * Weather data for cities from Part I used to plan vacations.
 * Gmaps library used to visualize the map.
 * The Humidity Heatmap created for the cities in data set.
 * DataFrame to find an ideal weather condition was narrowed.
 * Google Places API used to find the first hotel for each city located within 5000 meters of ideal coordinates.
 * Marker Layers for Hotels in the ideal weather conditions added.
+* <img width="972" alt="Hotel_map" src="https://github.com/user-attachments/assets/a690fb33-bae0-4469-b9ad-937e170f9388">
+
