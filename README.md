@@ -1,11 +1,15 @@
-## python-APIs-challenge
-
-## Project description:
-### The project analyses the weather of 500+ cities across the world of varying distance from the equator.
+## The project analyses the weather of 500+ cities across the world of varying distance from the equator.
 
 ### Data retrieved from:
-* OpenWeather API to retrieve weather data https://openweathermap.org/api.
-* Google Places API is used to find locations of Hotels in cities with the best weather https://developers.google.com/maps/documentation/places/web-service/overview.
+* Citipy to select cities base on their latitude and longitude.
+* OpenWeather API to retrieve weather data.
+* Google Places API is used to find locations of Hotels in cities with the best weather.
+
+### Libraries used:
+* Citipy, Pandas, Pyplot, Numpy, Requests, Scipy.
+### API used:
+* Open weather API https://openweathermap.org/api.
+* Google Places API https://developers.google.com/maps/documentation/places/web-service/overview.
 
 #### WeatherPy.ipynb
 #### The weather of 500+ cities across the world of varying distance from the equator is vizualized.
@@ -19,6 +23,13 @@
 * MatPlotLib package used to build Charts. 
 * SciPy package used to calculate linear regression and Pearson correlation.
 * Analysis was done separetely for North and South Hemispheres.
+
+Example of Analysis:
+* ![image](https://github.com/user-attachments/assets/9491dde7-a8ee-4df5-a28d-00f4981c2bf6)
+* Latitude vs. Temperature Plot shows that there is a correlation between Latitude and Max Temperature.
+* The closer the latitude to the zero the higher we might expect the Max Temperatures.
+* At the current time of Analysis the Highest Temperature tend to shift towards Northern Hemisphere.
+
 
 
 #### VacationPy.ipynb
